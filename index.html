@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerBlog - Job Portal & Career Resources</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="header-top">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>CareerBlog</h1>
+                        <span>Jobs & Career Resources</span>
+                    </div>
+                </div>
+                
+                <nav>
+                    <button class="mobile-menu-btn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <ul>
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Career Tips</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline">Login</a>
+                    <a href="#" class="btn btn-solid">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Find Your <span>Dream Job</span> and Career Resources</h2>
+                <p>Discover thousands of job opportunities and expert career advice to help you succeed in your professional journey.</p>
+                
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Search jobs, resources, or career topics...">
+                    <button id="search-btn"><i class="fas fa-search"></i> Search</button>
+                </div>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>25K+</h3>
+                            <p>Job Seekers</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>3.5K+</h3>
+                            <p>Job Listings</p>
+                        </div>
+                    </div>
+                    
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-text">
+                            <h3>850+</h3>
+                            <p>Resources</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Job Listings Section -->
+    <section class="container">
+        <div class="section-title">
+            <h2>Featured Job Opportunities</h2>
+            <a href="#" class="view-all">View All Jobs <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="categories">
+            <div class="category active">All</div>
+            <div class="category">Technology</div>
+            <div class="category">Marketing</div>
+            <div class="category">Finance</div>
+            <div class="category">Healthcare</div>
+            <div class="category">Education</div>
+        </div>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-img">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="card-content">
+                    <span class="badge badge-job">Full-time</span>
+                    <h3>Senior Frontend Developer</h3>
+                    <p>Join our team to build innovative web applications using React and modern JavaScript frameworks.</p>
+                    <div class="card-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> San Francisco, CA</span>
+                        <span>$120K - $150K</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img" style="background:linear-gradient(135deg, #10b981, #059669)">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="card-content">
+                    <span class="badge badge-job">Remote</span>
+                    <h3>Marketing Manager</h3>
+                    <p>Lead our marketing team to develop and execute strategies that drive growth and engagement.</p>
+                    <div class="card-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        <span>$90K - $110K</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <div class="card-img" style="background:linear-gradient(135deg, #8b5cf6, #7c3aed)">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="card-content">
+                    <span class="badge badge-job">Part-time</span>
+                    <h3>UX Design Instructor</h3>
+                    <p>Teach UX design principles and mentor students in our online certification program.</p>
+                    <div class="card-meta">
+                        <span><i class="fas fa-map-marker-alt"></i> New York, NY</span>
+                        <span>$60/hr</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Blog Resources Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Career Resources & Tips</h2>
+                <a href="#" class="view-all">View All Resources <i class="fas fa-arrow-right"></i></a>
+            </div>
+            
+            <div class="grid">
+                <div class="card">
+                    <div class="card-img" style="background:linear-gradient(135deg, #ec4899, #db2777)">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="badge badge-blog">Resume Tips</span>
+                        <h3>How to Craft a Winning Resume in 2023</h3>
+                        <p>Learn the latest strategies and formats to make your resume stand out to employers and ATS systems.</p>
+                        <div class="card-meta">
+                            <div class="author">
+                                <div class="author-avatar">JD</div>
+                                <div>
+                                    <div>Jane Doe</div>
+                                    <small>May 15, 2023 • 8 min read</small>
+                                </div>
+                            </div>
+                            <span><i class="far fa-bookmark"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img" style="background:linear-gradient(135deg, #f59e0b, #d97706)">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="badge badge-blog">Interviewing</span>
+                        <h3>10 Common Interview Questions and How to Answer Them</h3>
+                        <p>Prepare for your next interview with these expert tips on tackling the most frequently asked questions.</p>
+                        <div class="card-meta">
+                            <div class="author">
+                                <div class="author-avatar">JS</div>
+                                <div>
+                                    <div>John Smith</div>
+                                    <small>Jun 2, 2023 • 6 min read</small>
+                                </div>
+                            </div>
+                            <span><i class="far fa-bookmark"></i></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-img" style="background:linear-gradient(135deg, #06b6d4, #0891b2)">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="card-content">
+                        <span class="badge badge-blog">Networking</span>
+                        <h3>The Ultimate Guide to Professional Networking</h3>
+                        <p>Discover effective strategies to build meaningful professional connections that can advance your career.</p>
+                        <div class="card-meta">
+                            <div class="author">
+                                <div class="author-avatar">AR</div>
+                                <div>
+                                    <div>Alex Rivera</div>
+                                    <small>Apr 28, 2023 • 10 min read</small>
+                                </div>
+                            </div>
+                            <span><i class="far fa-bookmark"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>CareerBlog</h3>
+                    <p>Your trusted resource for job opportunities and career development. We connect talent with opportunity and provide expert advice to help you succeed.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Home</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Job Listings</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Career Resources</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Resume Builder</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Job Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Technology</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Marketing</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Healthcare</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Education</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Finance</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-envelope"></i> hello@careerblog.com</a></li>
+                        <li><a href="#"><i class="fas fa-phone"></i> +1 (555) 123-4567</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> 123 Career Street, San Francisco, CA</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 CareerBlog. All rights reserved. | Designed with <i class="fas fa-heart" style="color:#f87171"></i> for job seekers and career enthusiasts</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
